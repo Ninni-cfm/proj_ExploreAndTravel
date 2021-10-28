@@ -1,0 +1,23 @@
+##############################################################################
+# All files and folders that should not be stored in the project repository
+
+#-----------------------------------------------------------------------------
+# all dependencies for a project which can easily downloaded using 'npm i'
+/node_modules
+
+#-----------------------------------------------------------------------------
+# the file containing all vars which should be hidden from public
+/.env  
+
+#-----------------------------------------------------------------------------
+# setup an express project with required dependencies
+/npm_inst.sh
+
+#-----------------------------------------------------------------------------
+# some scripts to keep your project folder clean
+# for a bash console...
+/npm_clean.sh
+# and for a windows console...
+/npm_clean.cmd
+# create an archive of the project folder
+/make_zip.sh
