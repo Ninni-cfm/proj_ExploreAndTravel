@@ -1,0 +1,18 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+
+    form {
+        width: 40vw;
+
+        select {
+            border: 1px solid #afb0b9;
+            border-radius: 0.3rem;
+            padding: 0.5rem 1rem;
+            width: 10rem;
+        }
+    }
+    img {
+        width: 40vw;
+    }
+}

@@ -1,0 +1,14 @@
+.NavBar {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavBar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.NavBar ul li {
+  padding: 0 1rem;
+}
